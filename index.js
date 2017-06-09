@@ -32,7 +32,7 @@ app.get('/webhook/', function (req, res) {
     res.send('No sir')
 })
 
-app.post('/sample:id', function (req, res) {
+app.post('/sample', function (req, res) {
     
     var id = req.query.id;
 
